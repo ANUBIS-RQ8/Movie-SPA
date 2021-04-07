@@ -1,6 +1,6 @@
 {
   "name": "my-first-react-project",
-  "homepage": "https://KonstantinPogosskiy.github.io/Movie-SPA",
+  "homepage": "http://KonstantinPogosskiy.github.io/Movie-SPA",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
