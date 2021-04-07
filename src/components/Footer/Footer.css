@@ -1,0 +1,11 @@
+.footer {
+     background: linear-gradient(25deg, #02090c, #315169);
+}
+
+h4.footer {
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    color: #e8dfc9;
+}

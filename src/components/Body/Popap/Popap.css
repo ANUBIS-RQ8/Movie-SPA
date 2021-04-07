@@ -1,0 +1,62 @@
+.backSide {
+    position: fixed;
+    background: rgba(0,0,0,.7);
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+}
+.modal {
+    width: 475px;
+    height: 600px;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.close {
+    width: 100%;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    background: none;
+    border: none;
+}
+
+.close:focus {
+    outline: none;
+}
+
+.movie__title {
+    font-family: 'Calibri Light';
+    font-size: 36px;
+    font-weight: bold;
+    color: #e8dfc9;
+    margin: 0;
+    padding: 0;
+}
+
+.movie__genre {
+    font-family: 'Calibri Light';
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.movie__description {
+    font-family: 'Calibri Light';
+    font-style: italic;
+    font-size: 16px;
+    color: white;
+    margin: 50px;
+}
