@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Movie-SPA/static/css/main.347f3889.chunk.css",
+    "main.css": "/Movie-SPA/static/css/main.0e66fd0c.chunk.css",
     "main.js": "/Movie-SPA/static/js/main.4d3afbf3.chunk.js",
     "main.js.map": "/Movie-SPA/static/js/main.4d3afbf3.chunk.js.map",
     "runtime-main.js": "/Movie-SPA/static/js/runtime-main.d52e0142.js",
@@ -8,13 +8,13 @@
     "static/js/2.d7c3c6f4.chunk.js": "/Movie-SPA/static/js/2.d7c3c6f4.chunk.js",
     "static/js/2.d7c3c6f4.chunk.js.map": "/Movie-SPA/static/js/2.d7c3c6f4.chunk.js.map",
     "index.html": "/Movie-SPA/index.html",
-    "static/css/main.347f3889.chunk.css.map": "/Movie-SPA/static/css/main.347f3889.chunk.css.map",
+    "static/css/main.0e66fd0c.chunk.css.map": "/Movie-SPA/static/css/main.0e66fd0c.chunk.css.map",
     "static/js/2.d7c3c6f4.chunk.js.LICENSE.txt": "/Movie-SPA/static/js/2.d7c3c6f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d52e0142.js",
     "static/js/2.d7c3c6f4.chunk.js",
-    "static/css/main.347f3889.chunk.css",
+    "static/css/main.0e66fd0c.chunk.css",
     "static/js/main.4d3afbf3.chunk.js"
   ]
 }
