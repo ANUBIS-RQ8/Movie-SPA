@@ -29,14 +29,15 @@
     font-weight: normal;
     background: linear-gradient(45deg, #000000, #154257);
     border-radius: 10% 0 10% 0;
-    opacity: 80%;
+    opacity: 0.8;
 
 }
+
 .posters:hover {
     cursor: pointer;
     transform: scale(1.05);
     background: linear-gradient(45deg, #16394b, #181717);
-    opacity: 100%;
+    opacity: 1;
 }
 
 .genre {
