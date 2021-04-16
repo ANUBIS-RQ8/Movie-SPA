@@ -1,5 +1,4 @@
 import React from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import PropTypes from 'prop-types';
 import Film from '../Film/Film';
 import './Films.css';
@@ -20,8 +19,7 @@ const Films = (props) => {
         </div>
       </div>
       <div className="films">
-        {films.map((item) => <Film filmDetails={item}/>)}
-
+        {films.map((item) => <Film filmDetails={item} />)}
       </div>
     </div>
   );

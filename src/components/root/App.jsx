@@ -1,28 +1,23 @@
 import React, {useEffect, useState} from 'react';
-import './App.css';
-import Films from '../Body/Films/Films';
-import Form from '../Form/Form';
+import Films from '../Main/Films/Films';
 import Footer from '../Footer/Footer';
+import Header from '../Header/Header';
+import {url} from '../../constants/constants';
 
-const App = (props) => {
-  const [filmsItem, setFilmsItem] = useState([]);
-  const getFilms = () => fetch(`${props.url.domainUrl}?search=${props.url.inquiry}&searchBy=title`)
-    .then((response) => response.json())
-    .then((result) => setFilmsItem(result.data))
-  useEffect(() => getFilms(), []);
+const App = () => {
+    const [filmsItem, setFilmsItem] = useState([]);
+    const getFilms = () => fetch(`${url.domainUrl}?search=${url.inquiry}&searchBy=title`)
+        .then((response) => response.json())
+        .then((result) => setFilmsItem(result.data))
+    useEffect(() => getFilms(), []);
 
-  return (
-    <div>
-      <div className="app">
-        <h1>FIND YOUR MOVIE</h1>
+    return (
         <div>
-          <Form urlBuilder={props.urlBuilder} getFilms={getFilms} />
+            <Header getFilms={getFilms}/>
+            <Films films={filmsItem}/>
+            <Footer/>
         </div>
-      </div>
-      <Films films={filmsItem} />
-      <Footer />
-    </div>
-  );
+    );
 };
 
 export default App;
