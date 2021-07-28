@@ -5,6 +5,12 @@
   padding-bottom: 20px;
 }
 
+@media screen and (max-width: 700px) {
+  .film {
+    width: 130px;
+  }
+}
+
 .preDescription {
   width: 100%;
   padding-top: 5px;
@@ -21,6 +27,14 @@
   font-family: 'Calibri Light';
 }
 
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 8px;
+    width: 50%;
+
+  }
+}
+
 .posters {
   height: 260px;
   width: 170px;
@@ -30,7 +44,15 @@
   background: linear-gradient(45deg, #000000, #154257);
   border-radius: 10% 0 10% 0;
   opacity: 0.8;
+}
 
+
+@media screen and (max-width: 700px) {
+  .posters {
+    height: 200px;
+    width: 130px;
+    padding: 3px;
+  }
 }
 
 .posters:hover {
