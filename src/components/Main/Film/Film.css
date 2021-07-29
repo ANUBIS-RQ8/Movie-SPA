@@ -64,12 +64,28 @@
 
 .genre {
   display: block;
-  height: 10px;
+  height: 13px;
   vertical-align: center;
-  padding: 2px;
+  padding: 5px;
   background: #FF16394B;
-  font-size: 7px;
+  font-size: 9px;
   color: bisque;
+}
+
+@media screen and (max-width: 1100px) {
+  .genre {
+    height: 11px;
+    padding: 3px;
+    font-size: 7px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .genre {
+    height: 8px;
+    padding: 2px;
+    font-size: 6px;
+  }
 }
 
 .genre p {
@@ -84,7 +100,14 @@
   padding: 1px;
   font-size: 8px;
   color: bisque;
+  text-align: center;
   vertical-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  .releaseDate {
+    margin-left: 31%;
+  }
 }
 
 .openModal {

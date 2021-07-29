@@ -22,24 +22,11 @@
   z-index: 1;
   border-radius: 20px;
 }
-
-@media screen and (max-width: 1100px) {
-  .modal {
-    width: 365px;
-    height: 500px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .modal {
-    width: 265px;
-    height: 400px;
-  }
-}
+@media screen and (max-width: 1100px) {.modal {width: 365px;height: 500px;}}
+@media screen and (max-width: 700px) {.modal {width: 265px;height: 400px;}}
 
 .close {
-  width: 100%;
-  text-align: right;
+  margin-left: 90%;
   font-size: 30px;
   color: white;
   background: none;
@@ -62,18 +49,8 @@
   margin: 0;
   padding: 0;
 }
-
-@media screen and (max-width: 1100px) {
-  .movie__title {
-    font-size: 30px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .movie__title {
-    font-size: 22px;
-  }
-}
+@media screen and (max-width: 1100px) {.movie__title {font-size: 30px;}}
+@media screen and (max-width: 700px) {.movie__title {font-size: 22px;}}
 
 .movie__genre {
   font-family: 'Calibri Light';
@@ -91,15 +68,5 @@
   color: white;
   margin: 50px;
 }
-
-@media screen and (max-width: 1100px) {
-  .movie__description {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 700px) {
-  .movie__description {
-    font-size: 12px;
-  }
-}
+@media screen and (max-width: 1100px) {.movie__description {font-size: 16px;}}
+@media screen and (max-width: 700px) {.movie__description {font-size: 12px;}}
