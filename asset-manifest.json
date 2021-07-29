@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Movie-SPA/static/css/main.00001dca.chunk.css",
-    "main.js": "/Movie-SPA/static/js/main.d0afcf2c.chunk.js",
-    "main.js.map": "/Movie-SPA/static/js/main.d0afcf2c.chunk.js.map",
+    "main.css": "/Movie-SPA/static/css/main.c2ae2826.chunk.css",
+    "main.js": "/Movie-SPA/static/js/main.e22b43ec.chunk.js",
+    "main.js.map": "/Movie-SPA/static/js/main.e22b43ec.chunk.js.map",
     "runtime-main.js": "/Movie-SPA/static/js/runtime-main.d52e0142.js",
     "runtime-main.js.map": "/Movie-SPA/static/js/runtime-main.d52e0142.js.map",
     "static/js/2.fc1480e4.chunk.js": "/Movie-SPA/static/js/2.fc1480e4.chunk.js",
     "static/js/2.fc1480e4.chunk.js.map": "/Movie-SPA/static/js/2.fc1480e4.chunk.js.map",
     "index.html": "/Movie-SPA/index.html",
-    "static/css/main.00001dca.chunk.css.map": "/Movie-SPA/static/css/main.00001dca.chunk.css.map",
+    "static/css/main.c2ae2826.chunk.css.map": "/Movie-SPA/static/css/main.c2ae2826.chunk.css.map",
     "static/js/2.fc1480e4.chunk.js.LICENSE.txt": "/Movie-SPA/static/js/2.fc1480e4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d52e0142.js",
     "static/js/2.fc1480e4.chunk.js",
-    "static/css/main.00001dca.chunk.css",
-    "static/js/main.d0afcf2c.chunk.js"
+    "static/css/main.c2ae2826.chunk.css",
+    "static/js/main.e22b43ec.chunk.js"
   ]
 }
